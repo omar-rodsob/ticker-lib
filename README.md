@@ -41,7 +41,7 @@ ticketObj=[
 background is transparent and font will use whatever font you are using on your project
 ```
 Example:
-(ticker.gif)
+![ticker demo](ticker-lib.gif)
 ## License
 
 MIT © [](https://github.com/)
