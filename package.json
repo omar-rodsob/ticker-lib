@@ -4,7 +4,7 @@
   "description": "Ticker libe, scrolling stripe to show news or info.",
   "author": "Omar Rodriguez",
   "license": "MIT",
-  "repository": "/ticker-lib",
+  "repository": "https://github.com/omar-rodsob/ticker-lib",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
