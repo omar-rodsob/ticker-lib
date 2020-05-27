@@ -15,16 +15,33 @@ npm install --save ticker-lib
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'ticker-lib'
-import 'ticker-lib/dist/index.css'
+import { GetTicker } from 'ticker-lib';
+
+import './node_modules/ticker-lib/dist/index.css';
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <MyComponent 
+    			tickerObj={tickerObj}
+    		/>
   }
 }
 ```
 
+## Notes
+
+```
+I use this lib with google news https://newsapi.org/s/google-news-api, they send a json with title, i  just add the title to the ticker, but you can use whatever you want or create your on json, just remember add a node called title.
+
+e.g. 
+ticketObj=[
+	{title:'Title one'},
+	{title:'Title Two'}
+]
+background is transparent and font will use whatever font you are using on your project
+```
+Example:
+(ticker.gif)
 ## License
 
 MIT © [](https://github.com/)
